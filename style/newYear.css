@@ -94,7 +94,7 @@
 }
 .join{
     background: none;
-    padding: 10px 20px;
+    padding: 16px 32px;
     border: none;
     color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
@@ -107,6 +107,7 @@
     border:2px solid white ;
     border-radius: 10px;
     box-shadow: 5px 0px 40px wheat;
+    padding: 18px 35px;
 }
 .party-image{
     padding-left: 40px;
@@ -119,5 +120,114 @@
 .address{
     width: 1320px;
     height: 482px;
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 1),rgba(255, 0, 0, 0));
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.24),rgba(255, 0, 0, 0));
+    margin: 120px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.element{
+    color: rgba(7, 2, 17, 1);
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px;
+}
+.red{
+    color: rgba(255, 0, 0, 1);
+}
+.address-btn{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border: none;
+    border-radius: 10px;
+}
+.address-btn:hover{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 0px 40px rgba(58, 55, 49, 0.579);
+    padding: 18px 35px;
+}
+/* coming soon section */
+.coming-soon{
+    width: 1320px;
+    height: 465px;
+    margin: 120px auto;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.new{
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.heading{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+.promo{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: normal;
+    width: 280px;
+}
+.image-ellipse{
+    border: 20px solid red;
+    border-radius: 50%;
+    padding: 40px;
+}
+.year{
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+}
+/* holiday section styles */
+.holiday{
+    width: 1320px;
+    height: 987px;
+    margin: 120px auto;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items h5{
+    color: rgba(7, 2, 17, 1);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.items h2{
+    color: red;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.items h2 span{
+    color: black;
+}
+.items p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 28px;
 }
