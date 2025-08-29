@@ -8,4 +8,8 @@ Ans: The difference between **getElementById, getElementByClassName, and querySe
     <td>getElementsByClassName</td>
     <td>querySelector / querySelectorAll</td>
   </tr>
+  <td>1.</td>
+  <td>This property is used to get/catch/manipulate any html elements by there id.</td>
+  <td>This property is used for get/catch/manipulate any html elements by their class name</td>
+  <td>These properties are used for get/catch/manipulate any html elements as like css </td>
 </table>
